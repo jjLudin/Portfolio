@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Yacuta | Portfolio</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-primary p-4">
+                <div class="row">
+                    <div class="col-md-6 float-md-left">
+                        <h4 class="text-white">About</h4>
+                        <p class="text-white">
+                            Hi! John here. Aspiring Software Developer.
+                            I like developing software projects and reading the latest tech news.
+                            I enjoy working with C#, .Net, and ASP.NET MVC.
+                            Connect with me if you would like to chat!
+                        </p>
+                    </div>
+                    <div class="col-md-6 float-md-right">
+                        <h4 class="text-white">Let's Connect!</h4>
+                        <p class="text-white">
+                            <a href="https://www.linkedin.com/in/johnyacuta/" target="_blank">LinkedIn</a><br />
+                            <a href="https://github.com/jjLudin" target="_blank">Github</a><br />
+                            <a href="mailto:jgludin@gmail.com">Email</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-primary fixed-top position-absolute">
+            <span class="navbar-brand mb-0 h1">Portfolio</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+    
+    @RenderBody()
+    <hr />
+    <footer>
+        <p style="margin-left:25px;">&copy; @DateTime.Now.Year - John Yacuta</p>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
