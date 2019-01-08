@@ -1,4 +1,4 @@
 # Portfolio
 An ASP.NET MVC web page for my portfolio.
 
-<img src="Portfolio/Content/Images/Portfolio-Home.PNG" alt="Alt"/>
+<img src="https://github.com/jjLudin/Portfolio/blob/master/Content/Images/Portfolio-Home.PNG"/>
