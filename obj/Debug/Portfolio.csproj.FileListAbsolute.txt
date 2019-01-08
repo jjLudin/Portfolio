@@ -179,3 +179,4 @@ C:\Users\Ludin\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.csproj.CoreC
 C:\Users\Ludin\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.csproj.CopyComplete
 C:\Users\Ludin\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.dll
 C:\Users\Ludin\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.pdb
+C:\Users\Ludin\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.csprojAssemblyReference.cache
