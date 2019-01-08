@@ -1,4 +1,4 @@
 # Portfolio
 An ASP.NET MVC web page for my portfolio.
 
-![alt text](Content/Images/Portfolio-Home.png?raw=true)
+<img src="/Content/Images/Portfolio-Home.png" alt="Alt"/>
